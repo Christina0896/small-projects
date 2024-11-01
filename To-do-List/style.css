@@ -1,0 +1,64 @@
+body {
+  background: rgba(93, 93, 121, 0.192);
+}
+.container {
+  width: 100%;
+  max-width: 540px;
+  background: white;
+  margin: 100px auto 20px;
+  padding: 40px 0px 70px;
+  border-radius: 10px;
+}
+.container h2 {
+  margin: 0px 10px 30px 30px;
+}
+.input-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 30px;
+  padding-left: 20px;
+  margin: 20px;
+  background: rgba(128, 128, 128, 0.178);
+}
+input {
+  flex: 1;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  background: transparent;
+  padding: 10px;
+}
+button {
+  cursor: pointer;
+  border: none;
+  border-radius: 30px;
+  background: rgba(0, 0, 255, 0.26);
+  padding: 10px 30px;
+  font-size: 16px;
+}
+ul li {
+  display: flex;
+  position: relative;
+  list-style: none;
+  padding: 18px;
+  font-size: 20px;
+  cursor: pointer;
+}
+ul li span {
+  margin-left: 19em;
+  position: absolute;
+}
+ul li::before {
+  content: "";
+  position: absolute;
+}
+ul li.checked {
+  text-decoration: line-through;
+}
+
+.close {
+  text-decoration: none;
+  cursor: pointer;
+  margin-left: 25em;
+}
